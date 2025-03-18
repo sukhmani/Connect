@@ -60,23 +60,14 @@ const Header = () => (
     <header className="header">
         <div className="logo">Connect</div>
         <nav className="nav">
-            <ul>
-                <li>Home</li>
-                <li>Notifications</li>
-                <li>Profile</li>
-            </ul>
+
         </nav>
     </header>
 );
 
 const Sidebar = () => (
     <aside className="sidebar">
-        <ul>
-            <li>Dashboard</li>
-            <li>Messages</li>
-            <li>Classes</li>
-            <li>Groups</li>
-        </ul>
+
     </aside>
 );
 
