@@ -36,7 +36,7 @@ const App = () => {
                                 <Sidebar />
 
                                 <Feed /> {/* Updated Feed layout */}
-                                <Rightbar friends={friends} onSelectFriend={setSelectedFriend} />
+
                             </div>
                         </>
                     } />
@@ -94,14 +94,6 @@ const Post = ({ title, content }) => (
     </div>
 );
 
-const Rightbar = ({ friends, onSelectFriend }) => (
-    <aside className="rightbar">
-        <div className="suggestions">
-            <h4>Suggestions</h4>
-            <p>Chat</p>
-        </div>
-        <FriendList friends={friends} onSelectFriend={onSelectFriend} />
-    </aside>
-);
+
 
 export default App;
